@@ -2,6 +2,10 @@
 
 This is a project template powered by [Cookiecutter](https://github.com/cookiecutter/cookiecutter) for use with [datakit-project](https://github.com/associatedpress/datakit-project/).
 
+# About this fork
+
+The original tried to install python libraries using pipenv in the post_gen_project.sh script, which played poorly with pyenv. This fork leaves that script empty, though it may be useful for installation or other setup tasks.
+
 **Structure**
 
 ```
